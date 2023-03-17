@@ -4,8 +4,8 @@ main:
     url: https://lmsspace203.github.io
 
   - title: "카테고리"
-    url: /category
+    url: /category/
 
   - title: "시리즈"
-    url: /series
+    url: /series/
 
