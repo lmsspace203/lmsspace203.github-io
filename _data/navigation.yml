@@ -1,12 +1,11 @@
-# main links
+# 블로그 상단
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
-  - title: "Sample Posts"
-    url: /year-archive/
-  - title: "Sample Collections"
-    url: /collection-archive/
-  - title: "Sitemap"
-    url: /sitemap/
+  - title: "메인"
+    url: https://lmsspace203.github.io
+
+  - title: "카테고리"
+    url: /category
+
+  - title: "시리즈"
+    url: /series
+
