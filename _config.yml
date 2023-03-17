@@ -20,6 +20,8 @@ logo                     : "/assets/images/test.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              :  true
 words_per_minute         : 200
+
+# 댓글
 comments:
   provider               :  "disqus" #"disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -86,12 +88,13 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
-# Analytics
+# 블로그 추적, 통계
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag" 
+                          # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id          : "G-D2FQ3Y54PS"
+    anonymize_ip         : false
 
 
 # Site Author
