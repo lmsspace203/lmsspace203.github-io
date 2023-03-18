@@ -18,12 +18,11 @@
             </li>
           {%- endfor -%}
         </ul>
-        {% if site.search == true %}
-        <button class="search__toggle" type="button">
-          <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
-          <i class="fas fa-search"></i>
-        </button>
-        {% endif %}
+        <span id="search-wrapper" class="align-items-center">
+          <i class="fas fa-search fa-fw"></i>
+          <input class="form-control" id="search-input" type="search" aria-label="search" placeholder="Search...">
+          <i class="fa fa-times-circle fa-fw" id="search-cleaner"></i>
+        </span>
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
           <div class="navicon"></div>

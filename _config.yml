@@ -261,5 +261,11 @@ defaults:
       share: true
       related: true
       show_date: true
+      toc : true
+      toc_sticky : true
+      author_profile : false
+      sidebar:            # 포스팅 페이지에서 왼쪽에 어떤 화면을 띄울 것인가?
+          nav: "docs"     # nav에서 설정
 
+# 날짜 형식 지정 - 포스팅 시간 
 date_format: "%Y-%m-%d"
