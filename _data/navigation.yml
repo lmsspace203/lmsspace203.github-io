@@ -2,10 +2,25 @@
 main:
   - title: "메인"
     url: https://lmsspace203.github.io
-
   - title: "카테고리"
-    url: /category/
+    url: /categories/
+  - title: "태그"
+    url: /tags/
+  - title: "검색"
+    url: /search/
 
-  - title: "시리즈"
-    url: /series/
 
+docs:
+- title: "대목차1"
+  children:
+  - title: "Category"
+    url: /categories/
+  - title : "Tag"
+    url: /tags/
+
+- title: "대목차2"
+  children:
+  - title: "Category"
+    url: /categories/
+  - title : "Tag"
+    url: /tags/
