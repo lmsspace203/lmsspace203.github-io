@@ -226,6 +226,12 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portpolio/
+
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
