@@ -230,7 +230,8 @@ tag_archive:
 collections:
   portfolio:
     output: true
-    permalink: /portpolio/
+    permalink: /:collection/:path/
+
 
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
@@ -258,7 +259,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: portfolio
+      type: posts
     values:
       layout: single
       author_profile: true
@@ -272,6 +273,14 @@ defaults:
       author_profile : false
       sidebar:            # 포스팅 페이지에서 왼쪽에 어떤 화면을 띄울 것인가?
           nav: "docs"     # nav에서 설정
+     # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
 
 # 날짜 형식 지정 - 포스팅 시간 
 date_format: "%Y-%m-%d"

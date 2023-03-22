@@ -9,7 +9,7 @@ main:
   - title: "검색"
     url: /search/
   - title: "포트폴리오"
-    url: /portpolio/
+    url: /portfolio/
 
 
 docs:
